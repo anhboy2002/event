@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="high_sologan">60dp</dimen>
+    <dimen name="size_sologan">20sp</dimen>
+    <dimen name="high_so">50dp</dimen>
+    <dimen name="width_so">40dp</dimen>
+    <dimen name="high_ll_bot">500dp</dimen>
+    <dimen name="high_result">60dp</dimen>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+</resources>

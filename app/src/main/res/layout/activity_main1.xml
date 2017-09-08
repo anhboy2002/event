@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:id="@+id/tv_top"
+        android:background="@color/colorbackground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/high_sologan"
+        android:text="Các kiểu lập trình sự kiện"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/size_sologan"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:id="@+id/ll_sologan1"
+        android:layout_below="@+id/tv_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/high_so"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:id="@+id/tv_sologan1"
+            android:layout_width="@dimen/width_so"
+            android:layout_height="@dimen/high_so"
+            android:text="@string/text_numbera"
+            />
+        <EditText
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/edt_sologan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_sologan2"
+        android:layout_below="@+id/ll_sologan1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/high_so"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:id="@+id/tv_sologan2"
+            android:layout_width="@dimen/width_so"
+            android:layout_height="@dimen/high_so"
+            android:text="@string/text_numberb"
+            android:gravity="center"/>
+        <EditText
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/edt_sologan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/ll_sologan2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/high_ll_bot"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/high_result"
+            android:background="@color/colorbackground"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/size_sologan"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_result1"
+            android:layout_margin="@dimen/margin"
+            android:textSize="@dimen/text_size"
+            android:textAllCaps="false"
+            android:text="@string/result1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/high_result"
+            android:onClick="tong1"/>
+        <Button
+            android:id="@+id/btn_result2"
+            android:layout_margin="@dimen/margin"
+            android:textSize="@dimen/text_size"
+            android:textAllCaps="false"
+            android:text="@string/result2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/high_result" />
+        <Button
+            android:id="@+id/btn_result3"
+            android:layout_margin="@dimen/margin"
+            android:textSize="@dimen/text_size"
+            android:textAllCaps="false"
+            android:text="@string/result3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/high_result" />
+
+</LinearLayout>
+    
+
+    </RelativeLayout>

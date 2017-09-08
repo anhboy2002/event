@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exenvet</string>
+    <string name="text_numbera">Số A :</string>
+    <string name="text_numberb">Số B :</string>
+    <string name="result1">Tổng 2 số</string>
+    <string name="result2">Tổng(Anonymous listener)</string>
+    <string name="result3">Tổng (Ativity in listener)</string>
+</resources>
