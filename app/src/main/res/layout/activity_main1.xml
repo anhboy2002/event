@@ -3,23 +3,26 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorWhite"
    >
     <TextView
         android:id="@+id/tv_top"
         android:background="@color/colorbackground"
         android:layout_width="match_parent"
         android:layout_height="@dimen/high_sologan"
-        android:text="Các kiểu lập trình sự kiện"
+        android:text="@string/sologan"
         android:gravity="center"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/size_sologan"
         android:textStyle="bold"/>
     <LinearLayout
         android:id="@+id/ll_sologan1"
-        android:layout_below="@+id/tv_top"
         android:layout_width="match_parent"
         android:layout_height="@dimen/high_so"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_below="@+id/tv_top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
         <TextView
             android:textColor="@color/colorBlack"
             android:id="@+id/tv_sologan1"
@@ -29,7 +32,7 @@
             />
         <EditText
             android:gravity="center"
-            android:inputType="number"
+            android:inputType="numberSigned"
             android:textColor="@color/colorBlack"
             android:id="@+id/edt_sologan1"
             android:layout_width="match_parent"
@@ -49,58 +52,28 @@
             android:layout_height="@dimen/high_so"
             android:text="@string/text_numberb"
             android:gravity="center"/>
+
         <EditText
-            android:gravity="center"
-            android:inputType="number"
-            android:textColor="@color/colorBlack"
             android:id="@+id/edt_sologan2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="numberSigned"
+            android:textColor="@color/colorBlack" />
+
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_below="@+id/ll_sologan2"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/high_ll_bot"
-        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv_result"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/high_result"
-            android:background="@color/colorbackground"
-            android:gravity="center"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/size_sologan"
-            android:textStyle="bold" />
-
-        <Button
+    <Button
+            android:layout_below="@+id/ll_sologan2"
             android:id="@+id/btn_result1"
             android:layout_margin="@dimen/margin"
             android:textSize="@dimen/text_size"
             android:textAllCaps="false"
-            android:text="@string/result1"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/high_result"
-            android:onClick="tong1"/>
-        <Button
-            android:id="@+id/btn_result2"
-            android:layout_margin="@dimen/margin"
-            android:textSize="@dimen/text_size"
-            android:textAllCaps="false"
-            android:text="@string/result2"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/high_result" />
-        <Button
-            android:id="@+id/btn_result3"
-            android:layout_margin="@dimen/margin"
-            android:textSize="@dimen/text_size"
-            android:textAllCaps="false"
-            android:text="@string/result3"
+            android:text="@string/result"
             android:layout_width="match_parent"
             android:layout_height="@dimen/high_result" />
 
-</LinearLayout>
     
 
     </RelativeLayout>
