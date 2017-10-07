@@ -72,7 +72,15 @@
             android:textAllCaps="false"
             android:text="@string/result"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/high_result" />
+            android:layout_height="@dimen/high_result"
+        android:onClick="btn_result1"/>
+    <!--<ListView-->
+        <!--android:id="@+id/lv_result"-->
+        <!--android:layout_below="@+id/btn_result1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</ListView>-->
 
     
 
